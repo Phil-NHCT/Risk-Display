@@ -1,0 +1,70 @@
+:root {
+  --background: #f8f9fa;
+  --risk: #e6042a;
+  --safe: #4c9931;
+  --risk2: #214ce8;
+  --sub: #000000;
+}
+
+.chart {
+  object-fit: contain;
+  height: 100%;
+  width: 14%;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.scaleImages {
+  height: 100%;
+  padding: unset;
+  margin: unset;
+  width: 60%;
+  vertical-align: inherit;
+}
+
+.riskBar {
+  background-color: var(--risk);
+}
+.safeBar {
+  background-color: var(--safe);
+}
+
+.risk2Bar {
+  background-color: var(--risk2);
+}
+.subBar {
+  background-color: var(--sub);
+}
+.displayBarChart {
+  min-height: 250px;
+}
+
+.chartKey {
+  color: white;
+  margin: 12px;
+  padding: 4px;
+  font-size: smaller;
+  border-radius: 12px;
+  width: 75%;
+  max-width: 248px;
+  text-align: end;
+}
+.chartKeySafe {
+  background-color: var(--safe);
+}
+.chartKeyRisk {
+  background-color: var(--risk);
+}
+.chartKeySub {
+  background-color: var(--sub);
+}
+.chartKeyRisk2 {
+  background-color: var(--risk2);
+}
+
+.chartSection {
+  /*border: 1px solid black;*/
+  height: 250px;
+  padding-top: 5px;
+  float: left;
+}

@@ -1,0 +1,45 @@
+:root {
+  --background: #f8f9fa;
+  --risk: #e6042a;
+  --safe: #4c9931;
+  --risk2: #214ce8;
+  --sub: #000000;
+}
+
+/* Pie chart style */
+.pie {
+  width: 170px;
+  height: 170px;
+  /*background-image: conic-gradient(var(--risk) 64%, var(--safe) 34%);*/
+  border-radius: 50%;
+}
+
+.chartKeySafe {
+  background-color: var(--safe);
+}
+.chartKeyRisk {
+  background-color: var(--risk);
+}
+.chartKeySub {
+  background-color: var(--sub);
+}
+.chartKeyRisk2 {
+  background-color: var(--risk2);
+}
+
+.chartKey {
+  color: white;
+  margin: 12px;
+  padding: 4px;
+  font-size: smaller;
+  border-radius: 12px;
+  width: 75%;
+  max-width: 248px;
+  text-align: end;
+}
+
+.chartSection {
+  /*border: 1px solid black;*/
+  padding-top: 5px;
+  float: left;
+}

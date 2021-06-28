@@ -1,0 +1,46 @@
+/* Style the links inside the sidenav */
+#mySidenav span {
+  position: fixed; /* Position them relative to the browser window */
+  left: -40px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 80px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  /*transform: rotate(-90deg);*/
+  text-align: end;
+  z-index: 1;
+}
+
+#mySidenav span:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#showAll {
+  top: 20px;
+  background-color: #04aa6d;
+}
+
+#figuresOnly {
+  top: 80px;
+  background-color: #fdc758;
+}
+
+#barChartOnly {
+  top: 140px;
+  background-color: #8f6bde;
+}
+
+#pieChartOnly {
+  top: 200px;
+  background-color: #5f5f5f;
+}
+
+@media only screen and (max-width: 768px) {
+  #mySidenav span {
+    left: -70px;
+  }
+}

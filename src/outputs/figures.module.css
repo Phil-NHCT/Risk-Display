@@ -1,0 +1,48 @@
+.circle {
+  width: 49px;
+  height: 49px;
+  /*background: #4c9931;*/
+  border-radius: 50%;
+  /*border: solid black 1px;*/
+  float: left;
+  margin: 2px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+}
+
+.noRisk {
+  background: #4c9931;
+}
+
+.risk1 {
+  background: #e6042a;
+}
+
+.risk2 {
+  background: #214ce8 8px;
+}
+
+.subRisk {
+  border: solid #000000 6px;
+  color: black;
+}
+
+.Risk2Key {
+  background: var(--risk2);
+  border: solid var(--risk2) 8px;
+}
+
+.graphicKey {
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+}
+
+.graphicKey .circle {
+  float: unset;
+  /*margin: 0px auto 2px auto;*/
+}
+
+#displayFigures {
+  max-width: 606px;
+}
